@@ -32,8 +32,8 @@
         <ul class="navbar">
             <li><a href="Index.html">Home</a></li>
             <li><a href="Sobre.html">Sobre</a></li>
-            <li><a href="#" class="active">Cardapio</a></li>
-            <li><a href="contato.php">Contato</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="#" class="active">Contato</a></li>
             <li><a href="pecaJa.html">Pedido</a></li>
         </ul>
     </header>
