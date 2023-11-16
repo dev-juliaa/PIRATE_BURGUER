@@ -14,7 +14,7 @@
 
 <body>
 
-    <!----HEADER---->
+    <!----HOME---->
     <header>
         <a href="index.html" class="logo">
             <img class="LOGO_IMG" src="img/PIRATE_BURGUER-removebg-preview.png">
@@ -29,16 +29,15 @@
 
         <!-----NAVBAR---->
         <ul class="navbar">
-            <li><a href="#" class="active">Home</a></li>
+            <li><a href="Index.html">Home</a></li>
             <li><a href="Sobre.html">Sobre</a></li>
-            <li><a href="Promocoes.html">Promoções</a></li>
-            <li><a href="Cardapio.html">Cardapio</a></li>
-            <li><a href="Contato.html">Contato</a></li>
-            <li><a href="Carrinho.html">Carrinho</a></li>
+            <li><a href="#" class="active">Cardapio</a></li>
+            <li><a href="contato.php">Contato</a></li>
+            <li><a href="pecaJa.html">Pedido</a></li>
         </ul>
     </header>
 
-    <!------HOME------>
+    <!------PRINCIPAL------>
     <section class="home" id="home">
         <div class="texto_home">
             <h1 class="pirate">PIRATE BURGUER</h1>
@@ -56,25 +55,37 @@
 
     <section class="tesouro" id="tesouro">
     <div>
-        <h1 class="mais_pedidos"> MAIS PEDIDOS </h1>
+        <h1 class="mais_pedidos"> OS MAIS PEDIDOS </h1>
     </div>
 
 
-    <div>
-        <img class="produto_tesouro" src="img/burguer1.jpg">
-        <img class="produto_tesouro2" src="img/burguer2.jpg">
-        <img class="produto_tesouro3" src="img/burguer3.jpg">
+    <!-- SEGUNDA PARTE SITE -->
+
+    <div class="mais-pedidos-pedidos">
+        <div class="mais-pedidos-item">
+            <img class="produto_tesouro" src="img/burguer1.jpg">
+            <h1 class="burguer_t">BIG JACK'S</h1>
+        </div>
+        <div class="mais-pedidos-item">
+            <img class="produto_tesouro2" src="img/burguer2.jpg">
+            <h1 class="burguer_t">DOUBLE JACK'S</h1>
+        </div>
+        <div class="mais-pedidos-item">
+            <img class="produto_tesouro3" src="img/burguer3.jpg">
+            <h1 class="burguer_t">CAPITAIN JACK'S</h1>
+        </div>
+
     </div>
 
-    <h1 class="burguer_t">CAPITAIN JACK'S</h1>
-    <h1 class="burguer_t2">CAPITAIN JACK'S</h1>
-    <h1 class="burguer_t3">CAPITAIN JACK'S</h1>
+    <!-- BOTAO CARDAPIO -->
 
     <div class="botao_compre">
     <a href="Cardapio.html" class="btn_cardapio">CONHEÇA NOSSO CARDAPIO</a>
     </div>
 
 </section>
+
+<!-- FOOTER -->
 
 <footer>
     <p>&copy; 2023 PIRATE BURGUER. Todos os direitos reservados.</p>
